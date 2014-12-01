@@ -26,4 +26,18 @@ void draw () {
     }
   }
   popMatrix();
+  
+  pushMatrix();
+  fill(0,0,255);
+  translate(-5, 0, 0);
+  sphere(1);
+  
+  fill(255,0,0);
+  translate(4, 0, 0);
+  sphere(1);
+  
+  fill(0,255,0);
+  translate(4, 0, 0);
+  sphere(1);
+  popMatrix();
 }
