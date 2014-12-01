@@ -15,6 +15,10 @@ void draw () {
   pointLight(255,255, 255, 10, -5, 0);
   directionalLight(255, 255, 255, 1, 0, 0);
   
+  spotLight(0, 255, 0, -1, 0, 0, 0, 1, 0, PI/16, 2);
+  spotLight(0, 0, 255, 4, 0, 0, 0, 1, 0, PI/16, 2);
+  spotLight(255, 0, 0, -6, 0, 0, 0, 1, 0, PI/16, 2);
+  
   pushMatrix();
   fill(150,150,150);
   translate(0, 5, 0);
