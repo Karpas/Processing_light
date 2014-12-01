@@ -13,6 +13,7 @@ void draw () {
   noStroke();
   
   pointLight(255,255, 255, 10, -5, 0);
+  directionalLight(255, 255, 255, 1, 0, 0);
   
   pushMatrix();
   fill(150,150,150);
